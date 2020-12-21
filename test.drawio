@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T16:55:20.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="yr6nnnLglTlV4zYSpSlf" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-21T17:32:58.276Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="seuaqlYtScbfDRlwx9e0" version="14.1.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2087" dy="1911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2617" dy="2259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,9 +37,6 @@
         <mxCell id="x7nl987tTBAlt_DvxvBK-11" value="ProfilerSyncInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="370" y="100" width="170" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="la7sN57ci4mc6fE4O83t-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x7nl987tTBAlt_DvxvBK-15" target="la7sN57ci4mc6fE4O83t-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="x7nl987tTBAlt_DvxvBK-15" value="AsyncToSyncInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="590" y="100" width="190" height="390" as="geometry" />
         </mxCell>
@@ -65,7 +62,7 @@
           <mxGeometry x="190" y="70" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="la7sN57ci4mc6fE4O83t-10" value="&lt;font color=&quot;#000000&quot; size=&quot;1&quot;&gt;用以获取调用的执行时间&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontColor=#666600;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="405" y="-10" width="120" height="80" as="geometry" />
+          <mxGeometry x="405" y="-20" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="la7sN57ci4mc6fE4O83t-11" value="性能分析执行器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="415" y="70" width="100" height="20" as="geometry" />
@@ -76,11 +73,68 @@
         <mxCell id="la7sN57ci4mc6fE4O83t-13" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;异步转同步执行器&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="635" y="70" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="la7sN57ci4mc6fE4O83t-14" value="AsyncToSyncInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="860" y="100" width="190" height="390" as="geometry" />
+        <mxCell id="la7sN57ci4mc6fE4O83t-16" value="\" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="270" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="la7sN57ci4mc6fE4O83t-16" value="next.invoke" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="270" width="80" height="20" as="geometry" />
+        <mxCell id="la7sN57ci4mc6fE4O83t-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;" edge="1" parent="1" source="la7sN57ci4mc6fE4O83t-19" target="la7sN57ci4mc6fE4O83t-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="760" />
+              <mxPoint x="170" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-19" value="FutureInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="660" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-21" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px&quot;&gt;同步调用链路&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-24" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px&quot;&gt;异步调用链路&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;" edge="1" parent="1" source="la7sN57ci4mc6fE4O83t-25" target="la7sN57ci4mc6fE4O83t-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="790" />
+              <mxPoint x="450" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-25" value="AsyncInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="660" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;" edge="1" parent="1" source="la7sN57ci4mc6fE4O83t-27" target="la7sN57ci4mc6fE4O83t-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-27" value="TestAddressInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="660" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-29" value="FilterInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="660" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-31" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 10px&quot;&gt;根据不同调用模式Future callback来选用不同的线程池执行异步调用&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="550" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-32" value="&lt;span style=&quot;font-size: 10px&quot;&gt;当处于测试模式，用来匹配设置对应的测试目标地址&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-35" value="" style="curved=1;endArrow=classic;html=1;strokeColor=#67AB9F;" edge="1" parent="1" source="x7nl987tTBAlt_DvxvBK-15" target="la7sN57ci4mc6fE4O83t-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="520" as="sourcePoint" />
+            <mxPoint x="-150" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="520" />
+              <mxPoint x="430" y="480" />
+              <mxPoint x="-190" y="530" />
+              <mxPoint x="-230" y="680" />
+              <mxPoint x="-40" y="700" />
+              <mxPoint x="20" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-36" value="&lt;span style=&quot;font-size: 15px&quot;&gt;filter链路&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="1110" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
