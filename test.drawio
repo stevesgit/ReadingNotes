@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T16:23:51.146Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="chpKvDbRNgx2VpO0eY2f" version="14.1.1" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7VfbcpswFPwaP2YGTIntx9hxkk7daab2TB47ChyDWqHDHIQN/foKI27Bt6ZNOm3zBFqtbmd3uQycWZTdEovDj+iDGAwtPxs414PhcGiNR/pSIHmJjG27BALifgm1gCX/Dga0DJpyH5IOUSEKxeMu6KGU4KkOxohw26WtUXRXjVkAPWDpMdFHH7ivQnMK12rwO+BBWK1sW6YnYhXZAEnIfNy2IGc+cGaEqMq7KJuBKIpX1aUcd3Ogt94YgVTnDMhGUkzGI7WaXgn15XqTbaYfLqoyb5hIzYnNblVelQB8XRHTRFIhBiiZmDfolDCVPhTrWLrVcBaIsQZtDX4FpXIjL0sVaihUkTC95ZrFQgcPZ6AEU/IMy5Hp9CajiZcvrFh+elgN2e2Fa0zCKAB15OSTWgLtXcAIFOV6HIFgim+6+2DGREHNM0OviFjeIsTIpUpaM98XgCZklatNvfMqH080+zm+vil3ULVaR2mgnQ/2e+JYBVuWmAmudZih9FLSimg2j7gC6llFezwubtNILPgaBJeFPWIgrjel+c61MPB9g011dhXTGBk3eCgEixP+uJu2sBSBXjnRsnyGpPSQ1bNdna9dQxF+qxNbTLrmQsxQIO126vgMxmuvZrZ6Lr0xPK5rU+7x4AZIQdaC+jYyvRejrn61ntvmWWK/M1jYeo44E+uw9VryH1V3f+KHf3HiDyf5jMTbB7R62cg77pMIO8cjf4L/y5E/VsKWJ+b63UkLDJa59N7LDXq6RCjvmPTF/5H7Xsj3mPNg7m33jNyPXzf3l/9a7qsvydPBd/9E8N2nQb48HvwT/JcJflXDlivuCXVmgN6S/5zkO+e88Uevm/z+B91VosVd4ZvEz5HYnZwh8eQ3SaybzS9imfrmR9uZ/wA=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-21T16:55:20.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="yr6nnnLglTlV4zYSpSlf" version="14.1.1" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="2087" dy="1911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x7nl987tTBAlt_DvxvBK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="x7nl987tTBAlt_DvxvBK-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="200" />
+              <mxPoint x="100" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="ClientConcurrencyLimiter" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="100" width="140" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="x7nl987tTBAlt_DvxvBK-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="x7nl987tTBAlt_DvxvBK-9" target="x7nl987tTBAlt_DvxvBK-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="230" />
+              <mxPoint x="350" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7nl987tTBAlt_DvxvBK-9" value="ErrorLogSyncInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="150" y="100" width="180" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="x7nl987tTBAlt_DvxvBK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="x7nl987tTBAlt_DvxvBK-11" target="x7nl987tTBAlt_DvxvBK-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="260" />
+              <mxPoint x="550" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7nl987tTBAlt_DvxvBK-11" value="ProfilerSyncInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="370" y="100" width="170" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x7nl987tTBAlt_DvxvBK-15" target="la7sN57ci4mc6fE4O83t-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x7nl987tTBAlt_DvxvBK-15" value="AsyncToSyncInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="590" y="100" width="190" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-3" value="next.invoke" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="205" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-4" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;next.invoke&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-5" value="next.invoke" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-6" value="客户端并发限制器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="70" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-7" value="&lt;font color=&quot;#000000&quot; size=&quot;1&quot;&gt;通过设置最大并发数 AtomicIntger 来空值并发&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontColor=#666600;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-8" value="&lt;font color=&quot;#000000&quot; size=&quot;1&quot;&gt;HSF调用的异常会此处进行统一的捕获处理&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontColor=#666600;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-9" value="异常处理器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="70" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-10" value="&lt;font color=&quot;#000000&quot; size=&quot;1&quot;&gt;用以获取调用的执行时间&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontColor=#666600;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="-10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-11" value="性能分析执行器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-12" value="&lt;font color=&quot;#000000&quot; size=&quot;1&quot;&gt;因为HSF是一个异步执行框架，而普通调用都是需要同步执行等待结果。通过Future#get阻塞获取执行结果，达到同步的效果&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontColor=#666600;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-15" width="205" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-13" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;异步转同步执行器&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="70" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-14" value="AsyncToSyncInvocationHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="860" y="100" width="190" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="la7sN57ci4mc6fE4O83t-16" value="next.invoke" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="270" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
