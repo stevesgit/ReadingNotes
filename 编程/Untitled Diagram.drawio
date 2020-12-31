@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T07:55:11.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="zqQR-FiqnhrHAIZuc7pM" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T08:00:00.063Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="WRrN2e36I_UTCrn1t9re" version="14.1.4" type="github">
   <diagram id="8hyWG5DNdCxR_j4EdIO5" name="Page-1">
     <mxGraphModel dx="1235" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,15 +79,15 @@
           <mxGeometry x="240" y="1190" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-21" value="城市排行榜" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="145" y="1340" width="315" height="260" as="geometry" />
+          <mxGeometry x="145" y="1330" width="315" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="9bIh-mB9ExF3nw51RKhw-22" value="+ city 城市id&#xa;+ city_name 城市名&#xa;+ manager_id 城市经理id&#xa;+ manager_name  城市经理name&#xa;+ metrics 指标维度 valid_line handover_pkg  op_in_time&#xa;+ value 指标值&#xa;+ region_rank 地区排名 &#xa;+ county_rank  全国排名&#xa;+ day_on_day 日环比&#xa;+ delay_pkg_num 滞留件单量&#xa;+ rank_no 今日排名&#xa;+ region 大区名&#xa;+ stat_date&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9bIh-mB9ExF3nw51RKhw-21">
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-22" value="+ city 城市id&#xa;+ city_name 城市名&#xa;+ manager_id 城市经理id&#xa;+ manager_name  城市经理name&#xa;+ metrics 指标维度 valid_line handover_pkg  op_in_time&#xa;+ value 指标值&#xa;+ region_rank 地区排名 &#xa;+ county_rank  全国排名&#xa;+ region_day_on_day 地区排名日环比 今日比上一周今日&#xa;+ country_day_on_day 城市排名日环比&#xa;+ region_previous_value 地区与上一名的差距&#xa;+ region_previous_name  地区与上一名的名字&#xa;+ country_previous_value 全国上一名的值&#xa;+ country_previous_name 全国上一名的名字&#xa;+ stat_date&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9bIh-mB9ExF3nw51RKhw-21">
           <mxGeometry y="30" width="315" height="230" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-24" value="小二排行榜" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="145" y="1640" width="315" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="9bIh-mB9ExF3nw51RKhw-25" value="+ city 城市id&#xa;+ employ_id 小二id&#xa;+ employ_name 小二名字&#xa;+ city_name  城市name&#xa;+ city_id 城市id&#xa;+ metrics 指标维度 valid_line handover_pkg  op_in_time&#xa;+ value 指标值&#xa;+ region_rank 地区排名 &#xa;+ county_rank  全国排名&#xa;+ region_day_on_day 地区排名日环比 今日比上一周今日&#xa;+ country_day_on_day 城市排名日环比&#xa;+ stat_date 统计日期&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9bIh-mB9ExF3nw51RKhw-24">
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-25" value="+ city 城市id&#xa;+ city_name  城市name&#xa;+ employ_id 小二id&#xa;+ employ_name 小二名字&#xa;+ metrics 指标维度 valid_line handover_pkg  op_in_time&#xa;+ value 指标值&#xa;+ region_rank 地区排名 &#xa;+ county_rank  全国排名&#xa;+ region_day_on_day 地区排名日环比 今日比上一周今日&#xa;+ country_day_on_day 城市排名日环比&#xa;+ region_previous_value 地区与上一名的差距&#xa;+ region_previous_name  地区与上一名的名字&#xa;+ country_previous_value 全国上一名的值&#xa;+ country_previous_name 全国上一名的名字&#xa;+ stat_date 统计日期&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9bIh-mB9ExF3nw51RKhw-24">
           <mxGeometry y="30" width="315" height="230" as="geometry" />
         </mxCell>
       </root>
