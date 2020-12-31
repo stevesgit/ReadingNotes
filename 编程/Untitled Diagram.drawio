@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T03:32:40.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="5sjxwg8xsA7h5oTGfv2k" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T03:50:08.585Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="72_orGlTKPP2-eCW4Uqc" version="14.1.4" type="github">
   <diagram id="8hyWG5DNdCxR_j4EdIO5" name="Page-1">
     <mxGraphModel dx="1235" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,74 @@
         </mxCell>
         <mxCell id="M5Vq__j_jYRAFMtw6sY8-2" value="+ stationId 站点id&#xa;+ collect_pkg 集包到站单量&#xa;+ handover_pkg 交接单量&#xa;+ arrive_pkg 入库单量&#xa;+ not_process_pkg_num 未及时操作单量&#xa;+ arrive_home_out_time_pkg_num 上门超时单量&#xa;+ delay_pkg_num 滞留件单量&#xa;+ arrive_home_pkg_num 需上门单量&#xa;+ had_arrive_home_pkg_num 已上门单量&#xa;+ arrive_home_ratio 上门履约率&#xa;+ not_process_ratio 未及时操作率&#xa;+ arrive_ratio 及时入库率&#xa;+ delay_pkg_num 滞留件&#xa;+ orgCode 关联的网点id&#xa;+ cpCode cpCode&#xa;+ prvoId 省id&#xa;+ cityId 市id&#xa;+ areaId 区id&#xa;+ waterMark  是否达到水位线，依据具体的指标" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="M5Vq__j_jYRAFMtw6sY8-1" vertex="1">
           <mxGeometry y="30" width="290" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="660" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-3" target="9bIh-mB9ExF3nw51RKhw-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-6" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9bIh-mB9ExF3nw51RKhw-4">
+          <mxGeometry x="-0.3429" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9bIh-mB9ExF3nw51RKhw-5">
+          <mxGeometry x="-0.0889" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-3" value="是否为城市经理" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="780" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-8" target="9bIh-mB9ExF3nw51RKhw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-8" value="获取权限网点列表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="960" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-9" value="城市小二" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="880" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-10" value="城市经理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="890" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-11" value="获取城市经理cityId" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="175" y="960" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-13" target="9bIh-mB9ExF3nw51RKhw-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-13" value="通过cityId获驿站履约数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1060" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-15" value="通过网点id获取驿站履约数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1060" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9bIh-mB9ExF3nw51RKhw-17" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1190" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
