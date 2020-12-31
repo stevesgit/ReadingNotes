@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T03:23:06.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="hfuHjDcZLzXf_MJnSrs6" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T03:32:40.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="5sjxwg8xsA7h5oTGfv2k" version="14.1.4" type="github">
   <diagram id="8hyWG5DNdCxR_j4EdIO5" name="Page-1">
     <mxGraphModel dx="1235" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="M5Vq__j_jYRAFMtw6sY8-1" value="驿站履约实时表" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="180" y="140" width="280" height="230" as="geometry" />
+          <mxGeometry x="180" y="140" width="290" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="M5Vq__j_jYRAFMtw6sY8-2" value="+stationId 站点id&#xa;+collect_pkg 集包到站单量&#xa;+ handover_pkg 交接单量&#xa;+not_process_pkg_num 未及时操作单量&#xa;+arrive_home_out_time_pkg_num 上门超时单量&#xa;+ arrive_home_pkg_num 上门单量&#xa;+delay_pkg_num 滞留件&#xa;+orgCode 关联的网点id&#xa;+cpCode cpCode&#xa;+prvoId 省id&#xa;+cityId 市id&#xa;+areaId 区id&#xa;+waterMark  是否达到水位线，依据具体的指标" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="M5Vq__j_jYRAFMtw6sY8-1" vertex="1">
-          <mxGeometry y="30" width="280" height="200" as="geometry" />
+        <mxCell id="M5Vq__j_jYRAFMtw6sY8-2" value="+ stationId 站点id&#xa;+ collect_pkg 集包到站单量&#xa;+ handover_pkg 交接单量&#xa;+ arrive_pkg 入库单量&#xa;+ not_process_pkg_num 未及时操作单量&#xa;+ arrive_home_out_time_pkg_num 上门超时单量&#xa;+ delay_pkg_num 滞留件单量&#xa;+ arrive_home_pkg_num 需上门单量&#xa;+ had_arrive_home_pkg_num 已上门单量&#xa;+ arrive_home_ratio 上门履约率&#xa;+ not_process_ratio 未及时操作率&#xa;+ arrive_ratio 及时入库率&#xa;+ delay_pkg_num 滞留件&#xa;+ orgCode 关联的网点id&#xa;+ cpCode cpCode&#xa;+ prvoId 省id&#xa;+ cityId 市id&#xa;+ areaId 区id&#xa;+ waterMark  是否达到水位线，依据具体的指标" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="M5Vq__j_jYRAFMtw6sY8-1" vertex="1">
+          <mxGeometry y="30" width="290" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
