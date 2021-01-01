@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T09:46:06.755Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="04Gi80yH5xqo6OjYLFF1" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-01T06:53:01.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eE97VnOfW_fibv3KA_78" version="14.1.4" type="github">
   <diagram id="8hyWG5DNdCxR_j4EdIO5" name="Page-1">
-    <mxGraphModel dx="1237" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,15 +12,15 @@
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="780" as="targetPoint" />
+            <mxPoint x="345" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="190" y="680" width="80" height="70" as="geometry" />
+          <mxGeometry x="305" y="680" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-3" target="9bIh-mB9ExF3nw51RKhw-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="950" as="targetPoint" />
+            <mxPoint x="345" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-6" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9bIh-mB9ExF3nw51RKhw-4">
@@ -30,7 +30,7 @@
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="960" as="targetPoint" />
+            <mxPoint x="485" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9bIh-mB9ExF3nw51RKhw-5">
@@ -39,53 +39,53 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-3" value="是否为城市经理" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="180" y="780" width="100" height="100" as="geometry" />
+          <mxGeometry x="295" y="780" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-8" target="9bIh-mB9ExF3nw51RKhw-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-8" value="获取权限网点列表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="320" y="960" width="110" height="50" as="geometry" />
+          <mxGeometry x="435" y="960" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-9" value="城市小二" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="880" width="60" height="20" as="geometry" />
+          <mxGeometry x="485" y="880" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-10" value="城市经理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="890" width="60" height="20" as="geometry" />
+          <mxGeometry x="355" y="890" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="1060" as="targetPoint" />
+            <mxPoint x="345" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-11" value="获取城市经理cityId" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="175" y="960" width="110" height="50" as="geometry" />
+          <mxGeometry x="290" y="960" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-13" target="9bIh-mB9ExF3nw51RKhw-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-13" value="通过cityId获驿站履约数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="175" y="1060" width="110" height="50" as="geometry" />
+          <mxGeometry x="290" y="1060" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9bIh-mB9ExF3nw51RKhw-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="290" y="1190" as="targetPoint" />
+            <mxPoint x="405" y="1190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-15" value="通过网点id获取驿站履约数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1060" width="110" height="50" as="geometry" />
+          <mxGeometry x="435" y="1060" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-17" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1190" width="100" height="60" as="geometry" />
+          <mxGeometry x="355" y="1190" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-21" value="城市排行榜" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="145" y="1330" width="315" height="260" as="geometry" />
+          <mxGeometry x="30" y="1330" width="315" height="260" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-22" value="+ city 城市id&#xa;+ city_name 城市名&#xa;+ manager_id 城市经理id&#xa;+ manager_name  城市经理name&#xa;+ metrics 指标维度 valid_line handover_pkg  op_in_time&#xa;+ value 指标值&#xa;+ region_rank 地区排名 &#xa;+ county_rank  全国排名&#xa;+ region_day_on_day 地区排名日环比 今日比上一周今日&#xa;+ country_day_on_day 城市排名日环比&#xa;+ region_previous_value 地区与上一名的差距&#xa;+ region_previous_name  地区与上一名的名字&#xa;+ country_previous_value 全国上一名的值&#xa;+ country_previous_name 全国上一名的名字&#xa;+ stat_date&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9bIh-mB9ExF3nw51RKhw-21">
           <mxGeometry y="30" width="315" height="230" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-24" value="小二排行榜" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1330" width="315" height="260" as="geometry" />
+          <mxGeometry x="455" y="1330" width="315" height="260" as="geometry" />
         </mxCell>
         <mxCell id="9bIh-mB9ExF3nw51RKhw-25" value="+ city 城市id&#xa;+ city_name  城市name&#xa;+ employ_id 小二id&#xa;+ employ_name 小二名字&#xa;+ metrics 指标维度 valid_line handover_pkg  op_in_time&#xa;+ value 指标值&#xa;+ region_rank 地区排名 &#xa;+ county_rank  全国排名&#xa;+ region_day_on_day 地区排名日环比 今日比上一周今日&#xa;+ country_day_on_day 城市排名日环比&#xa;+ region_previous_value 地区与上一名的差距&#xa;+ region_previous_name  地区与上一名的名字&#xa;+ country_previous_value 全国上一名的值&#xa;+ country_previous_name 全国上一名的名字&#xa;+ stat_date 统计日期&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9bIh-mB9ExF3nw51RKhw-24">
           <mxGeometry y="30" width="315" height="230" as="geometry" />
