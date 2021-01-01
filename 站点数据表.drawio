@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-01-01T06:31:18.527Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="uZK2j2JczTfPCfV8Z-Al" version="14.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-01T08:59:56.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-65Zf7v-eC8fdzeRkS4W" version="14.1.4" type="github">
   <diagram id="C-8Ptgl1UD4wa6aH0_Vb" name="Page-1">
-    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1029" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9alJJUEFc6NJQmugvf93-1" value="exp_sta_total" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="160" y="130" width="280" height="340" as="geometry" />
+          <mxGeometry x="160" y="130" width="290" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="9alJJUEFc6NJQmugvf93-2" value="+ cp_code cpcode&#xa;+ org_code orgcode&#xa;+ station_id 站点id&#xa;+ sta_pkg_cnt 总的单量&#xa;+ collect_pkg_cnt 和网点关联的集包数&#xa;+ handover_pkg_cnt  和网点关联的交接数&#xa;+ main_handover_courier_id &#xa;+ main_handover_pkg_cnt&#xa;+ stat_date 统计日期&#xa;+ city_name 新增 城市名&#xa;+ area_id 区id&#xa;+ manager_id 新增 城市经理id&#xa;+ total_collect_pkg_cnt 新增 总的集包数&#xa;+ total_handover_pkg_cnt  新增 总的交际数&#xa;+ total_not_porcess_cnt 未及时操作数&#xa;+ total_arrive_home_out_time_pkg_cnt 上门超时数&#xa;+ total_delay_pkg_cnt 滞留件数&#xa;+ total_arrive_home_ratio 上门率&#xa;+ total_not_process_ratio 未及时操作率&#xa;+ total_arrive_ratio 及时入库率&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="9alJJUEFc6NJQmugvf93-1" vertex="1">
-          <mxGeometry y="30" width="280" height="310" as="geometry" />
+        <mxCell id="9alJJUEFc6NJQmugvf93-2" value="+ cp_code cpcode&#xa;+ org_code orgcode&#xa;+ station_id 站点id&#xa;+ sta_pkg_cnt 总的单量&#xa;+ collect_pkg_cnt 和网点关联的集包数&#xa;+ handover_pkg_cnt  和网点关联的交接数&#xa;+ main_handover_courier_id &#xa;+ main_handover_pkg_cnt&#xa;+ stat_date 统计日期&#xa;+ city_name 新增 城市名&#xa;+ area_id 区id&#xa;+ manager_id 新增 城市经理id&#xa;+ total_collect_pkg_cnt 新增 总的集包数&#xa;+ total_handover_pkg_cnt  新增 总的交际数&#xa;+ total_process_cnt 及时操作数&#xa;+ total_arrive_home_pkg_cnt 及时上门数&#xa;+ total_need_arrive_home_pkg_cnt 需要上门总数&#xa;+ total_arrive_home_ratio 上门履约率&#xa;+ total_not_process_ratio 未及时操作率&#xa;+ total_arrive_ratio 及时入库率&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="9alJJUEFc6NJQmugvf93-1" vertex="1">
+          <mxGeometry y="30" width="290" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
